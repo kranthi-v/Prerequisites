@@ -9,3 +9,11 @@ if N == rev:
     print(f'{N} is a palindrome')
 else:
     print(f'{N} is not a palindrome')
+
+# string
+S = input("Enter the string: ")
+
+if S[::-1] == S:
+    print(f'{S} is palindrome')
+else:
+    print(f'{S} is not palindrome')
